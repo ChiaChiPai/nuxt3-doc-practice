@@ -8,5 +8,8 @@ export default defineNuxtConfig({
   components: [
     { path: '~/components/special-components', prefix: 'Special' },
     '~/components/'
-  ]
+  ],
+  experimental: {
+    componentIslands: true
+  }
 })
