@@ -6,10 +6,20 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint ."
   },
   "devDependencies": {
+    "@nuxt/eslint-config": "^0.1.1",
+    "@nuxtjs/tailwindcss": "^6.6.7",
     "@types/node": "^18",
+    "@vueuse/core": "^10.1.0",
+    "@vueuse/nuxt": "^10.1.0",
+    "eslint": "^8.39.0",
+    "eslint-plugin-tailwindcss": "^3.11.0",
     "nuxt": "^3.4.3"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.9"
   }
 }
