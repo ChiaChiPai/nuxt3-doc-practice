@@ -1,6 +1,11 @@
+<script setup>
+const route = useRoute()
+console.log(typeof route.params.lessonSlug)
+</script>
+
 <template>
   <div>
-    /{{ $route.params.chapterSlug }}/{{ $route.params.lessonSlug ? $route.params.lessonSlug : 'No lessonSlug' }}
+    /{{ $route.params.chapterSlug }}/{{ $route.params.lessonSlug }}
   </div>
 </template>
 

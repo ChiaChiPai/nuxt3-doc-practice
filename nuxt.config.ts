@@ -6,10 +6,10 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     ['@pinia/nuxt', { autoImports: ['defineStore'] }]
   ],
-  components: [
-    { path: '~/components/special-components', prefix: 'Special' },
-    '~/components/'
-  ],
+  // components: [
+  //   { path: '~/components/special-components', prefix: 'Special' },
+  //   '~/components/'
+  // ],
   experimental: {
     componentIslands: true
   }

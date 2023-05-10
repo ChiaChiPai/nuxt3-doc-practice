@@ -6,7 +6,7 @@
     <h2>
       Change Prefix name:
     </h2>
-    <SpecialClickButton />
+    <SpecialComponentsClickButton />
   </div>
 </template>
 
